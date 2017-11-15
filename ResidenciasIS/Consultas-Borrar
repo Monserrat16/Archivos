@@ -1,0 +1,18 @@
+delete from seguimiento_interno where idProyecto = 1521052817;
+delete from edo_proyecto_interno where idProyecto = 1521052817;
+delete from proyectos where idProyecto = 1521052817;
+
+select * from proyectos;
+select * from seguimiento_interno;
+select * from edo_proyecto_interno;
+
+
+
+delete from seguimiento_externo where idProyecto = 1521053717;
+delete from edo_proyecto_externo where idProyecto = 1521053717;
+delete from proyectos where idProyecto = 1521053717;
+
+select * from proyectos;
+select * from seguimiento_externo;
+select * from edo_proyecto_externo;
+
